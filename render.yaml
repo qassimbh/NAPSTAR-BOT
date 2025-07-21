@@ -1,8 +1,7 @@
 services:
   - type: web
     name: napstar-bot
-    env: runtime
-    runtime: php
+    env: static
     plan: free
     buildCommand: ""
     startCommand: php -S 0.0.0.0:10000 BOT-3.php
